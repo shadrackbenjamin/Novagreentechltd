@@ -12,43 +12,43 @@ const Products = () => {
     {
       name: "BU Series",
       desc: "Engineered specifically for hydraulic systems operating up to 450 bar. Designed to connect directly to the high-pressure line without the need for an external motor or pump, it simplifies installation and reduces maintenance. Equipped with M-series 2μ absolute filter elements.",
-      image: "./products/bu-series.png",
+      image: "/Novagreentechltd/products/bu-series.png",
       pdfLink: buSeriesPdf
     },
     {
       name: "TR Series",
       desc: "Heavy-duty particulate removal for robust industrial machinery.",
-      image: "./products/tr-series.png",
+      image: "/Novagreentechltd/products/tr-series.png",
       pdfLink: trSeriesPdf
     },
     {
       name: "SE Series",
       desc: "Compact off-line oil cleaner, designed to purify hydraulic oils by removing solid particles, water, and oxidation residues. Built around a compact power pack, it connects easily to oil reservoirs, ensuring extended oil life and reduced maintenance costs.",
-      image: "./products/se-series.png",
+      image: "/Novagreentechltd/products/se-series.png",
       pdfLink: seSeriesPdf
     },
     {
       name: "OSCA Series",
       desc: "The OSCA Series is Triple R's robust off-line oil cleaner, designed for large hydraulic and lubrication systems with oil volumes up to 50,000 liters. Equipped with its own motor-pump unit, it offers reliable, high-flow filtration for demanding applications.",
-      image: "./products/osca-series.png",
+      image: "/Novagreentechltd/products/osca-series.png",
       pdfLink: oscaSeriesPdf
     },
     {
       name: "WS Series",
       desc: "Combines solid particle filtration with coalescent water separation, effectively removing contaminants and free water. Its clear acrylic housing allows visual monitoring. Ideal for systems prone to water contamination, ensuring extended oil life.",
-      image: "./products/ws-series.png",
+      image: "/Novagreentechltd/products/ws-series.png",
       pdfLink: wsSeriesPdf
     },
     {
       name: "SS Series",
       desc: "Features robust carbon steel housings accommodating multiple filter elements, ideal for high-flow applications. It effectively removes fine particles, water, and oxidation residues, ensuring comprehensive oil purification for large-volume systems.",
-      image: "./products/ss-series.png",
+      image: "/Novagreentechltd/products/ss-series.png",
       pdfLink: ssSeriesPdf
     },
     {
       name: "Filter Elements",
       desc: "Triple R's continuous investment in research and development delivers the highest standard of efficiency in oil filtration. Protecting your investments while boosting productivity.",
-      image: "./products/filter-elements.webp"
+      image: "/Novagreentechltd/products/filter-elements.webp"
     }
   ];
 

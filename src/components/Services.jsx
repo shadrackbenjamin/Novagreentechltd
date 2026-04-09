@@ -3,42 +3,42 @@ const Services = () => {
     {
       title: "Heavy Machinery",
       desc: "Improves oil cleanliness and extends equipment life. By continuously removing water, dirt, and oxidation residues, Triple R filters keep hydraulic and engine oils in optimal condition.",
-      image: "./services/heavy_machinery.png"
+      image: "/Novagreentechltd/services/heavy_machinery.png"
     },
     {
       title: "Marine & Offshore",
       desc: "In harsh marine environments where contamination and moisture are constant threats, Triple R ensures maximum protection for engines, generators, thrusters, and hydraulic systems.",
-      image: "./services/marine_offshore.png"
+      image: "/Novagreentechltd/services/marine_offshore.png"
     },
     {
       title: "Mining",
       desc: "In environments exposed to extreme dust and moisture, our filters continuously remove fine particles, water, and oxidation residues from all types of oils to prevent component failure.",
-      image: "./services/mining_industry.png"
+      image: "/Novagreentechltd/services/mining_industry.png"
     },
     {
       title: "Transport Fleets",
       desc: "Keeps engine and hydraulic oils clean and free from harmful particles. By extending oil and filter life, we help reduce the frequency of oil changes and cut maintenance costs.",
-      image: "./services/transport_fleets.png"
+      image: "/Novagreentechltd/services/transport_fleets.png"
     },
     {
       title: "Power Generation",
       desc: "Provides continuous protection against contaminants, ensuring engines operate at peak efficiency. Less wear and tear means fewer maintenance requirements and a longer lifespan.",
-      image: "./services/power_generation.png"
+      image: "/Novagreentechltd/services/power_generation.png"
     },
     {
       title: "Industrial Plants",
       desc: "Ensures that equipment runs smoothly and reliably, leading to fewer breakdowns, less downtime, and lower costs for oil replacements and filter changes.",
-      image: "./services/industrial_plants.png"
+      image: "/Novagreentechltd/services/industrial_plants.png"
     },
     {
       title: "Petrochemical",
       desc: "Highly effective in the petrochemical industry, where machinery runs continuously under extreme conditions and oil cleanliness is mission-critical.",
-      image: "./services/petrochemical.png"
+      image: "/Novagreentechltd/services/petrochemical.png"
     },
     {
       title: "Aviation & Aerospace",
       desc: "A strong asset for hydraulic systems, turbine oils, and other critical lubrication systems where reliability and safety are paramount.",
-      image: "./services/aviation_aerospace.png"
+      image: "/Novagreentechltd/services/aviation_aerospace.png"
     }
   ];
 
