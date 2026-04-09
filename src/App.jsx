@@ -51,11 +51,11 @@ function App() {
         </div>
         <div className="navbar-links">
           <a href="#">Home</a>
-          <a href="#about">About</a>
-          <a href="#benefits">Why Us</a>
-          <a href="#products">Products</a>
+          <a href="#about">About Us</a>
+          <a href="#products">Our Products</a>
           <a href="#services">Industries</a>
-          <a href="#contact">Contact</a>
+          <a href="#benefits">Why Choose Us</a>
+          <a href="#contact">Contact Us</a>
         </div>
         <a href="#contact" className="btn-primary" style={{ padding: '0.5rem 1.5rem' }}>Get in Touch</a>
       </nav>
@@ -63,11 +63,11 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Benefits />
         <Products />
         <Services />
         <Results />
         <Expertise />
+        <Benefits />
         <Contact />
       </main>
 
