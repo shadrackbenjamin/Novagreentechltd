@@ -31,7 +31,7 @@ const Mission = () => {
               opacity: '0.1'
             }}></div>
             <img 
-              src="/services/power_generation.png" 
+              src="./services/power_generation.png" 
               alt="Triple R Filtration Mission" 
               style={{ 
                 width: '100%', 

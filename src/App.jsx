@@ -47,7 +47,7 @@ function App() {
     <div>
       <nav className="navbar">
         <div className="navbar-logo">
-          <a href="#" id="home-logo"><img src="/logo.jpg" alt="Nova Green Tech Logo" /></a>
+          <a href="#" id="home-logo"><img src="./logo.jpg" alt="Nova Green Tech Logo" /></a>
         </div>
         <div className="navbar-links">
           <a href="#">Home</a>

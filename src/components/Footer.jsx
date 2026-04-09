@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div className="footer-col" style={{ maxWidth: '400px' }}>
-          <img src="/logo.jpg" alt="Nova Green Tech Ltd Logo" className="footer-logo" />
+          <img src="./logo.jpg" alt="Nova Green Tech Ltd Logo" className="footer-logo" />
           <p>Official partner of Triple R Africa.</p>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginTop: '0.75rem' }}>
             <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: '0.9rem' }}>Powered by</span>
