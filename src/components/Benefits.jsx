@@ -2,7 +2,7 @@ import React from 'react';
 
 const Benefits = () => {
   return (
-    <section className="section">
+    <section id="benefits" className="section">
       <div className="container">
         <h2 className="section-title">Why Choose Us?</h2>
         <div className="features-grid">

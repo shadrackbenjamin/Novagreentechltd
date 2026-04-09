@@ -51,6 +51,7 @@ function App() {
         <div className="navbar-links">
           <a href="#">Home</a>
           <a href="#about">About</a>
+          <a href="#benefits">Why Us</a>
           <a href="#products">Products</a>
           <a href="#services">Industries</a>
           <a href="#contact">Contact</a>
