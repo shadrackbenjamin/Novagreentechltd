@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import About from './components/About';
 import Benefits from './components/Benefits';
 import Hero from './components/Hero';
