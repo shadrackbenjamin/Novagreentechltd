@@ -62,7 +62,6 @@ function App() {
 
       <main>
         <Hero />
-        <Mission />
         <About />
         <Benefits />
         <Products />

@@ -5,22 +5,22 @@ const Results = () => {
     {
       title: "Wear",
       desc: "Trap harmful wear metals, protecting your machinery from premature failure.",
-      image: "/results/wear.jpg"
+      image: "./results/wear.jpg"
     },
     {
       title: "Soot",
       desc: "Effectively remove soot from engine oil, ensuring cleaner, longer-lasting performance.",
-      image: "/results/soot.png"
+      image: "./results/soot.png"
     },
     {
       title: "Water",
       desc: "Eliminate water and acidity from oil, preventing corrosion and extending equipment life.",
-      image: "/results/water.jpg"
+      image: "./results/water.jpg"
     },
     {
       title: "Oxidation",
       desc: "Removing degradation byproducts, keeping oil stable and efficient.",
-      image: "/results/oxidation.png"
+      image: "./results/oxidation.png"
     }
   ];
 
