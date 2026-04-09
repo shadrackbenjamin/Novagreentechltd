@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import About from './components/About';
+import Benefits from './components/Benefits';
 import Hero from './components/Hero';
 import Mission from './components/Mission';
 import Expertise from './components/Expertise';
@@ -49,6 +50,7 @@ function App() {
         </div>
         <div className="navbar-links">
           <a href="#">Home</a>
+          <a href="#about">About</a>
           <a href="#products">Products</a>
           <a href="#services">Industries</a>
           <a href="#contact">Contact</a>
@@ -59,6 +61,8 @@ function App() {
       <main>
         <Hero />
         <Mission />
+        <About />
+        <Benefits />
         <Products />
         <Services />
         <Results />
