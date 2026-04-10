@@ -4,11 +4,11 @@ import tripleRLogo from '../assets/Triple-R-FIlters.png';
 const Footer = () => {
   return (
     <footer className="footer" style={{ 
-      backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("/Novagreentechltd/services/industrial_plants.png")',
+      backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("/services/industrial_plants.png")',
     }}>
       <div className="footer-content">
         <div className="footer-col">
-          <img src="/Novagreentechltd/logo.jpg" alt="Nova Green Tech Ltd Logo" style={{ height: '75px', width: 'auto', marginBottom: '1.5rem', display: 'block' }} />
+          <img src="/logo.jpg" alt="Nova Green Tech Ltd Logo" style={{ height: '75px', width: 'auto', marginBottom: '1.5rem', display: 'block' }} />
           <p style={{ fontSize: '1.1rem' }}>Official partner of Triple R Africa.</p>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginTop: '1.5rem' }}>
             <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: '1rem' }}>Powered by</span>

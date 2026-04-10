@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <section className="hero" style={{ 
-        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("/Novagreentechltd/services/heavy_machinery.png")',
+        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("/services/heavy_machinery.png")',
       }}>
         <div className="container">
           <div className="hero-content animate-on-scroll">

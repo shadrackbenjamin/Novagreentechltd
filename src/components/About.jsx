@@ -21,7 +21,7 @@ const About = () => {
           <div className="animate-on-scroll delay-1 side-image-wrapper">
             <div className="image-accent"></div>
             <img 
-              src="/Novagreentechltd/services/power_generation.png" 
+              src="/services/power_generation.png" 
               alt="Triple R Filtration Mission" 
               className="responsive-img"
             />

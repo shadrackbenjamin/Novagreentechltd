@@ -5,22 +5,22 @@ const Results = () => {
     {
       title: "Wear",
       desc: "Trap harmful wear metals, protecting your machinery from premature failure.",
-      image: "/Novagreentechltd/results/wear.jpg"
+      image: "/results/wear.jpg"
     },
     {
       title: "Soot",
       desc: "Effectively remove soot from engine oil, ensuring cleaner, longer-lasting performance.",
-      image: "/Novagreentechltd/results/soot.png"
+      image: "/results/soot.png"
     },
     {
       title: "Water",
       desc: "Eliminate water and acidity from oil, preventing corrosion and extending equipment life.",
-      image: "/Novagreentechltd/results/water.jpg"
+      image: "/results/water.jpg"
     },
     {
       title: "Oxidation",
       desc: "Removing degradation byproducts, keeping oil stable and efficient.",
-      image: "/Novagreentechltd/results/oxidation.png"
+      image: "/results/oxidation.png"
     }
   ];
 
