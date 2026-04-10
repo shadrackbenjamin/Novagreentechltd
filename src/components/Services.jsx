@@ -49,7 +49,7 @@ const Services = () => {
         <p style={{ textAlign: 'center', color: 'var(--text-light)', marginBottom: '3rem', maxWidth: '800px', margin: '0 auto 3rem auto' }}>
           Triple R Bypass Filtration Systems are engineered to deliver unmatched oil cleanliness across a broad spectrum of industries, maximizing operational efficiency.
         </p>
-        <div className="features-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '2rem' }}>
+        <div className="grid grid-4" style={{ marginTop: '2rem' }}>
           {services.map((service, index) => (
             <div className="feature-card animate-on-scroll" key={index} style={{ 
                 padding: 0, 
