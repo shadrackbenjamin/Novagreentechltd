@@ -3,7 +3,9 @@ import tripleRLogo from '../assets/Triple-R-FIlters.png';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" style={{ 
+      backgroundImage: 'linear-gradient(rgba(27, 94, 32, 0.8), rgba(27, 94, 32, 0.85)), url("/Novagreentechltd/services/industrial_plants.png")',
+    }}>
       <div className="footer-content">
         <div className="footer-col">
           <img src="/Novagreentechltd/logo.jpg" alt="Nova Green Tech Ltd Logo" className="footer-logo" />
