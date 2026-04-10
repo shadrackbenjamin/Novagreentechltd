@@ -54,29 +54,31 @@ const Products = () => {
 
   return (
     <section id="products" className="section" style={{ padding: '0' }}>
-      {/* Japan Products banner - full width */}
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap', background: 'var(--primary-blue)', padding: '2rem 3rem', width: '100%' }}>
-        <h2 style={{ margin: 0, fontSize: '2.8rem', fontWeight: '800', letterSpacing: '4px', textTransform: 'uppercase', color: '#fff' }}>JAPAN PRODUCTS</h2>
+      {/* Japan Products banner - systemized via CSS */}
+      <div className="japan-banner">
+        <h2>Japan Products</h2>
         <img src={tripleRLogo} alt="Triple R Logo" style={{ height: '90px', objectFit: 'contain' }} />
       </div>
+
       <div className="container" style={{ paddingTop: '3rem' }}>
         <h2 className="section-title">Our Products</h2>
         <p style={{ textAlign: 'center', color: 'var(--text-light)', marginBottom: '3rem', maxWidth: '800px', margin: '0 auto 3rem auto' }}>
           Discover our high-quality products designed to meet your specific needs. Each product is meticulously engineered to deliver superior performance for your operations.
         </p>
-        <div className="features-grid">
+
+        <div className="grid grid-3">
           {products.map((product, index) => (
-            <div className="feature-card animate-on-scroll" key={index} style={{ padding: '0', overflow: 'hidden' }}>
-              <div style={{ height: '250px', background: '#f8f9fa', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>
-                <img src={product.image} alt={product.name} style={{ maxHeight: '100%', maxWidth: '100%', objectFit: 'contain' }} />
+            <div className="feature-card animate-on-scroll" key={index}>
+              <div className="card-img-wrapper">
+                <img src={product.image} alt={product.name} />
               </div>
-              <div style={{ padding: '1.5rem', borderTop: '1px solid #eee' }}>
-                <h3 style={{ marginBottom: '0.5rem' }}>{product.name}</h3>
-                <p style={{ fontSize: '0.9rem' }}>{product.desc}</p>
+              <div className="card-content">
+                <h3>{product.name}</h3>
+                <p style={{ fontSize: '0.9rem', color: 'var(--text-light)' }}>{product.desc}</p>
                 {product.pdfLink ? (
-                  <a href={product.pdfLink} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ marginTop: '1rem', padding: '0.5rem 1rem', fontSize: '0.9rem', display: 'inline-block', textDecoration: 'none' }}>Learn More</a>
+                  <a href={product.pdfLink} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ marginTop: 'auto', alignSelf: 'flex-start' }}>Learn More</a>
                 ) : (
-                  <button className="btn-primary" style={{ marginTop: '1rem', padding: '0.5rem 1rem', fontSize: '0.9rem' }}>Learn More</button>
+                  <button className="btn-primary" style={{ marginTop: 'auto', alignSelf: 'flex-start' }}>Learn More</button>
                 )}
               </div>
             </div>
