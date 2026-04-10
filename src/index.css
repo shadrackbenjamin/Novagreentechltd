@@ -8,6 +8,8 @@
   --off-white: #f8f9fa;
   --text-dark: #1a1a1a;
   --text-light: #6c757d;
+  --nova-green: #2e7d32;
+  --nova-dark-green: #1b5e20;
   --transition-speed: 0.3s;
 }
 
@@ -240,7 +242,7 @@ html {
 
 /* Footer Control */
 .footer {
-  background: var(--secondary-blue);
+  background: var(--nova-dark-green);
   color: white;
   padding: 4rem 2rem;
 }
@@ -316,13 +318,15 @@ html {
 
 /* Japan Banner Header-like specifically */
 .japan-banner {
-  background: var(--primary-blue);
-  color: white;
-  padding: 2.5rem;
+  background: var(--white);
+  color: var(--secondary-blue);
+  padding: 3rem 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 @media (max-width: 768px) {
