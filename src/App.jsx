@@ -2,9 +2,6 @@ import React, { useEffect } from 'react';
 import About from './components/About';
 import Benefits from './components/Benefits';
 import Hero from './components/Hero';
-import Mission from './components/Mission';
-import Expertise from './components/Expertise';
-import Results from './components/Results';
 import Services from './components/Services';
 import Products from './components/Products';
 import Contact from './components/Contact';
@@ -65,8 +62,6 @@ function App() {
         <About />
         <Products />
         <Services />
-        <Results />
-        <Expertise />
         <Benefits />
         <Contact />
       </main>
