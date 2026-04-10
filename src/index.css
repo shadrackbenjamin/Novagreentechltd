@@ -149,17 +149,22 @@ html {
 /* Hamburger */
 .hamburger {
   display: none;
+  width: 44px;
+  height: 44px;
   background: transparent;
   border: none;
   cursor: pointer;
   color: var(--secondary-blue);
   z-index: 2500;
-  padding: 5px;
+  padding: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 900px) {
   .navbar-links, .navbar-cta { display: none !important; }
-  .hamburger { display: block !important; }
+  .hamburger { display: flex !important; }
 }
 
 /* Mobile Menu */
