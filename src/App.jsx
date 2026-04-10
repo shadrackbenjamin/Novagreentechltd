@@ -8,7 +8,6 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
-  console.log("V4 LOADED - RESPONIVE FIX ACTIVE");
   const [menuOpen, setMenuOpen] = useState(false);
 
   const closeMenu = () => setMenuOpen(false);
@@ -17,35 +16,30 @@ function App() {
     // Smooth scroll for logo click
     const logo = document.getElementById('home-logo');
     if (logo) {
-      logo.addEventListener('click', (e) => {
+      const handleLogoClick = (e) => {
         e.preventDefault();
         window.scrollTo({ top: 0, behavior: 'smooth' });
         closeMenu();
-      });
+      };
+      logo.addEventListener('click', handleLogoClick);
+      return () => logo.removeEventListener('click', handleLogoClick);
     }
+  }, []);
 
-    // Intersection observer for rich scroll-in animations
+  useEffect(() => {
+    // Intersection observer for animations
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('visible');
-          const children = entry.target.querySelectorAll('.animate-child');
-          children.forEach((child, i) => {
-            child.style.transitionDelay = `${i * 0.12}s`;
-            child.classList.add('visible');
-          });
         }
       });
-    }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+    }, { threshold: 0.1 });
 
-    document.querySelectorAll('.animate-on-scroll').forEach((el) => {
-      observer.observe(el);
-    });
-
+    document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
     return () => observer.disconnect();
   }, []);
 
-  // Prevent body scroll when menu is open
   useEffect(() => {
     document.body.style.overflow = menuOpen ? 'hidden' : '';
     return () => { document.body.style.overflow = ''; };
@@ -60,7 +54,6 @@ function App() {
           </a>
         </div>
 
-        {/* Desktop Links */}
         <div className="navbar-links">
           <a href="#">Home</a>
           <a href="#about">About Us</a>
@@ -70,21 +63,20 @@ function App() {
           <a href="#contact">Contact Us</a>
         </div>
 
-        <a href="#contact" className="btn-primary navbar-cta" style={{ padding: '0.5rem 1.5rem' }}>Get in Touch</a>
+        <a href="#contact" className="btn-primary navbar-cta">Get in Touch</a>
 
-        {/* Hamburger Button (mobile only) */}
         <button
           className="hamburger"
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle navigation menu"
+          aria-label="Toggle menu"
         >
           {menuOpen ? (
-            <svg viewBox="0 0 24 24" width="30" height="30" stroke="currentColor" strokeWidth="2.5" fill="none">
+            <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" strokeWidth="2.5" fill="none">
               <line x1="18" y1="6" x2="6" y2="18"></line>
               <line x1="6" y1="6" x2="18" y2="18"></line>
             </svg>
           ) : (
-            <svg viewBox="0 0 24 24" width="30" height="30" stroke="currentColor" strokeWidth="2.5" fill="none">
+            <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" strokeWidth="2.5" fill="none">
               <line x1="3" y1="12" x2="21" y2="12"></line>
               <line x1="3" y1="6" x2="21" y2="6"></line>
               <line x1="3" y1="18" x2="21" y2="18"></line>
@@ -93,10 +85,8 @@ function App() {
         </button>
       </nav>
 
-      {/* Mobile Menu Overlay */}
       {menuOpen && <div className="mobile-overlay" onClick={closeMenu} />}
 
-      {/* Mobile Drawer */}
       <div className={`mobile-menu ${menuOpen ? 'open' : ''}`}>
         <a href="#" onClick={closeMenu}>Home</a>
         <a href="#about" onClick={closeMenu}>About Us</a>
@@ -104,7 +94,7 @@ function App() {
         <a href="#services" onClick={closeMenu}>Industries</a>
         <a href="#benefits" onClick={closeMenu}>Why Choose Us</a>
         <a href="#contact" onClick={closeMenu}>Contact Us</a>
-        <a href="#contact" className="btn-primary" onClick={closeMenu} style={{ textAlign: 'center', marginTop: '0.5rem' }}>
+        <a href="#contact" className="btn-primary" onClick={closeMenu} style={{ marginTop: '1rem', textAlign: 'center' }}>
           Get in Touch
         </a>
       </div>
@@ -124,4 +114,3 @@ function App() {
 }
 
 export default App;
-
