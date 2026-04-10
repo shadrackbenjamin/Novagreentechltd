@@ -4,17 +4,17 @@ import tripleRLogo from '../assets/Triple-R-FIlters.png';
 const Footer = () => {
   return (
     <footer className="footer" style={{ 
-      backgroundImage: 'linear-gradient(rgba(27, 94, 32, 0.8), rgba(27, 94, 32, 0.85)), url("/Novagreentechltd/services/industrial_plants.png")',
+      backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("/Novagreentechltd/services/industrial_plants.png")',
     }}>
       <div className="footer-content">
         <div className="footer-col">
-          <img src="/Novagreentechltd/logo.jpg" alt="Nova Green Tech Ltd Logo" className="footer-logo" />
-          <p>Official partner of Triple R Africa.</p>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginTop: '0.75rem' }}>
-            <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: '0.9rem' }}>Powered by</span>
-            <img src={tripleRLogo} alt="Triple R Logo" style={{ height: '45px', objectFit: 'contain' }} />
+          <img src="/Novagreentechltd/logo.jpg" alt="Nova Green Tech Ltd Logo" style={{ height: '75px', width: 'auto', marginBottom: '1.5rem', display: 'block' }} />
+          <p style={{ fontSize: '1.1rem' }}>Official partner of Triple R Africa.</p>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginTop: '1.5rem' }}>
+            <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: '1rem' }}>Powered by</span>
+            <img src={tripleRLogo} alt="Triple R Logo" style={{ height: '65px', objectFit: 'contain' }} />
           </div>
-          <p style={{ marginTop: '0.75rem' }}>Delivering 4-in-one oil cleaning solutions for the future.</p>
+          <p style={{ marginTop: '1.5rem', fontSize: '1.1rem' }}>Delivering 4-in-one oil cleaning solutions for the future.</p>
         </div>
         <div className="footer-col">
           <a href="#about" style={{ display: 'block', marginBottom: '0.5rem', color: 'rgba(255,255,255,0.8)' }}>About Us</a>
