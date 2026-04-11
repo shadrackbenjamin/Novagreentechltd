@@ -57,7 +57,7 @@ const Products = () => {
       {/* Japan Products banner - systemized via CSS */}
       <div className="japan-banner">
         <h2>Japan Products</h2>
-        <img src={tripleRLogo} alt="Triple R Logo" style={{ height: '90px', objectFit: 'contain' }} />
+        <img src={tripleRLogo} alt="Triple R Logo" style={{ height: '90px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }} />
       </div>
 
       <div className="container" style={{ paddingTop: '3rem' }}>

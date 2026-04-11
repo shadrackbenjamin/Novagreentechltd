@@ -380,5 +380,34 @@ html {
   width: 100%;
   padding: 0.8rem;
   border: 1px solid #ddd;
-  border-radius: 8px;
+}
+
+/* Japan Products Banner */
+.japan-banner {
+  background-color: #003366 !important;
+  color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 4rem 2rem;
+  width: 100%;
+}
+
+.japan-banner h2 {
+  font-size: clamp(2.2rem, 6vw, 4rem);
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 3px;
+  color: white !important;
+}
+
+@media (max-width: 768px) {
+  .japan-banner {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    padding: 3rem 1.5rem;
+  }
 }
