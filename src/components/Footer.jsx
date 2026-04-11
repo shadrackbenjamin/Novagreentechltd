@@ -8,7 +8,7 @@ const Footer = () => {
     }}>
       <div className="footer-content">
         <div className="footer-col">
-          <img src="/logo.jpg" alt="Nova Green Tech Ltd Logo" style={{ height: '75px', width: 'auto', marginBottom: '1.5rem', display: 'block' }} />
+          <img src="/logo.svg" alt="Nova Green Tech Ltd Logo" style={{ height: '75px', width: 'auto', marginBottom: '1.5rem', display: 'block' }} />
           <p style={{ fontSize: '1.1rem' }}>Official partner of Triple R Africa.</p>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginTop: '1.5rem' }}>
             <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: '1rem' }}>Powered by</span>
