@@ -5,6 +5,8 @@ const Footer = () => {
   return (
     <footer className="footer" style={{ 
       backgroundImage: 'linear-gradient(rgba(248, 249, 250, 0.85), rgba(255, 255, 255, 0.95)), url("/services/industrial_plants.png")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center'
     }}>
       <div className="footer-content">
         <div className="footer-col">
