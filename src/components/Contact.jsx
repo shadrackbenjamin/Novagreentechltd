@@ -155,8 +155,7 @@ const Contact = () => {
 
             <div>
               <h4 style={{ color: 'var(--white)', fontSize: '1rem', marginBottom: '0.5rem' }}>Email</h4>
-              <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.95rem' }}>novagreentechltd@gmail.com</p>
-              <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.95rem' }}>novagreentechofficial@gmail.com</p>
+              <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.95rem' }}>sales@novagreentechltd.com</p>
             </div>
           </div>
         </div>

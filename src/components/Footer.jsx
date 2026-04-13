@@ -22,7 +22,7 @@ const Footer = () => {
           <a href="#about" style={{ display: 'block', marginBottom: '0.5rem', color: '#003366', textDecoration: 'none', fontWeight: '500' }}>About Us</a>
           <a href="#services" style={{ display: 'block', marginBottom: '0.5rem', color: '#003366', textDecoration: 'none', fontWeight: '500' }}>Industries</a>
           <a href="#products" style={{ display: 'block', marginBottom: '0.5rem', color: '#003366', textDecoration: 'none', fontWeight: '500' }}>Products</a>
-          <a href="#contact" style={{ display: 'block', color: '#003366', textDecoration: 'none', fontWeight: '500' }}>Contact</a>
+          <a href="mailto:sales@novagreentechltd.com" style={{ display: 'block', color: '#003366', textDecoration: 'none', fontWeight: '500' }}>sales@novagreentechltd.com</a>
         </div>
       </div>
       <div className="footer-bottom" style={{ borderTop: '1px solid rgba(0, 51, 102, 0.2)', marginTop: '2rem', paddingTop: '2rem' }}>
