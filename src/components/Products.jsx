@@ -6,6 +6,7 @@ import seSeriesPdf from '../assets/PDFs files/SE- SERIES.pdf';
 import oscaSeriesPdf from '../assets/PDFs files/OSCA- SERIES.pdf';
 import wsSeriesPdf from '../assets/PDFs files/WS- SERIES.pdf';
 import ssSeriesPdf from '../assets/PDFs files/SS- SERIES.pdf';
+import filterElementsPdf from '../assets/PDFs files/FILTER-ELEMENTS.pdf';
 
 const Products = () => {
   const products = [
@@ -48,7 +49,8 @@ const Products = () => {
     {
       name: "Filter Elements",
       desc: "Triple R's continuous investment in research and development delivers the highest standard of efficiency in oil filtration. Protecting your investments while boosting productivity.",
-      image: "/products/filter-elements.webp"
+      image: "/products/filter-elements.webp",
+      pdfLink: filterElementsPdf
     }
   ];
 
